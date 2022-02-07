@@ -1,0 +1,33 @@
+.hero{
+    text-align:center;
+}
+.hero-left{
+    position: absolute; 
+    float: left;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+}
+.hero-left h1{
+    font-size: 60px;
+}
+.hero-left h3{
+    margin-top: -40px;
+    padding-left: 80px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+.hero-right{
+    float: right;
+    padding: 100px;
+    padding-bottom: 0px;
+    background-color: rgb(27, 27, 66);
+    border-radius: 500px;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(124, 38, 38);
+}
