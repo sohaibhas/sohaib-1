@@ -6,7 +6,9 @@
   display: flex;
   /* background-color: rgb(94, 70, 70);
   background: transparent; */
+  /* border-bottom: solid 4px gray; */
 }
+
 .nav {
   display: flex;
   overflow: hidden;
@@ -44,6 +46,7 @@
 }
 .mid ul a:hover {
   color: black;
+  
 }
 .right {
   display: flex;

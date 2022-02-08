@@ -15,8 +15,8 @@ code {
 .btn {
   margin: 10px;
   font-size: 30px;
-  background-color: rgba(63, 60, 60, 0.76);
-  color: white;
+  color: black;
+  background-color:none;
   cursor: pointer;
   border-radius: 10px;
 }

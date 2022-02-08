@@ -8,7 +8,7 @@ const Header = () => {
     //   <div className="contact">
     //     <p className="contact-1">+92340-4892471</p>
     //   </div>
-      <header className="header">
+      <header className="header bd-grid">
         <div className="nav">
           <div className="logo">
             <a href="/">
