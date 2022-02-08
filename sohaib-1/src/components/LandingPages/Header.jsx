@@ -12,7 +12,6 @@ const Header = () => {
         <div className="nav">
           <div className="logo">
             <a href="/">
-              {" "}
               <span className="blue">SO</span>hAIB
             </a>
           </div>
@@ -39,8 +38,8 @@ const Header = () => {
             </ul>
           </div>
           <div className="right">
-            <button className="btn">Login</button>
-            <button className="btn">SignUp</button>
+            <button className="btn">LOGIN</button>
+            <button className="btn">SIGNUP</button>
           </div>
         </div>
       </header>

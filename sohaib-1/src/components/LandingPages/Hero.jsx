@@ -10,25 +10,25 @@ const Hero = () => {
         <ul>
           <li>
             <a href="#">
-            <FaFacebookF className="icon" />
+            <FaFacebookF className="facebook icon" />
             </a>
           </li>
         </ul>
         <ul>
           <li>
             <a href="#">
-            <FaInstagram className="icon" />
+            <FaInstagram className="instagram icon" />
             </a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"><FaTwitter className="icon" /></a>
+            <a href="#"><FaTwitter className="twitter icon" /></a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"><FaGithub className="icon" /></a>
+            <a href="#"><FaGithub className="github icon" /></a>
           </li>
         </ul>
       </div>

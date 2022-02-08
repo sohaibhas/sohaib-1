@@ -13,16 +13,64 @@ code {
 }
 
 .btn {
-  margin: 10px;
-  font-size: 30px;
-  color: black;
-  background-color:none;
-  cursor: pointer;
-  border-radius: 10px;
+    margin-right: .4rem;
+    display: inline-block;
+    padding:.5rem 2rem;
+    font-size: 1.5rem;
+    color:#fff;
+    border-radius: .5rem;
+    background: rgb(100, 76, 76);
+    cursor: pointer;
+    border: none;
+}
+.btn-gradient{
+  color:linear-gradient(to right, #8e2de2, #4a00e0);
 }
 .btn:hover {
-  background-color: #412728;
+  background-color: #A4A44D;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 .blue {
-  color: rgb(170, 189, 84);
+  color: #A4A44D;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }

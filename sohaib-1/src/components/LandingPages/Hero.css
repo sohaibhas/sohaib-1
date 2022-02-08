@@ -1,5 +1,6 @@
 .hero {
   text-align: center;
+  background-color: red;
 }
 .hero-left {
   position: absolute;
@@ -8,11 +9,13 @@
   text-align: center;
   top: 50%;
   right: 50%;
+  animation: slideInFromRight 1s ease-in;
 }
 .social {
   position: absolute;
   top: 40%;
   right: 90%;
+  animation:slideInFromBottom 1s ease-in;
 }
 .social ul{
     text-decoration: none;
@@ -40,16 +43,29 @@
   background-color: rgb(27, 27, 66);
   border-radius: 500px;
   overflow: hidden;
+  animation: slideInFromLeft 1s ease-in;
 }
 
 body {
-  background-color: rgb(124, 38, 38);
+  background-color: #AEAC9A;
 }
 .icon{
-  color:black;
-  font-size: 3rem;
-}
-.icon:hover{
   color:white;
-  font-size: 4rem;
+  font-size: 2rem;
+}
+.github:hover{
+  color: #000000;
+  transform: translateY(-15px);
+}
+.facebook:hover{
+  color: #1773EA;
+  transform: translateY(-15px);
+}
+.instagram:hover{
+  color: #D64171;
+  transform: translateY(-15px);
+}
+.twitter:hover{
+  color: #1C9CEA;
+  transform: translateY(-15px);
 }
