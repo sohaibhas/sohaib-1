@@ -8,11 +8,11 @@ const Header = () => {
     //   <div className="contact">
     //     <p className="contact-1">+92340-4892471</p>
     //   </div>
-      <header className="header bd-grid">
+      <header  className="header bd-grid">
         <div className="nav">
           <div className="logo">
             <a href="/">
-              <span className="blue">SO</span>hAIB
+              <span className="blue">.SO</span>hAIB
             </a>
           </div>
           <div className="mid">
@@ -33,7 +33,12 @@ const Header = () => {
             </ul>
             <ul>
               <li>
-                <a href="/">Contact Us</a>
+                <a href="/">Contact</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="/about">About</a>
               </li>
             </ul>
           </div>

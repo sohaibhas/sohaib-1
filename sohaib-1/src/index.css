@@ -33,7 +33,7 @@ code {
     cursor: pointer;
 }
 .blue {
-  color: #A4A44D;
+  color: rgba(59, 121, 100);;
 }
 @keyframes slideInFromLeft {
   0% {

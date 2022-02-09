@@ -34,7 +34,7 @@
   align-items: center;
   text-align: center;
   width: 50%;
-  padding-left: 200px;
+  padding-left: 180px;
   text-decoration: none;
   margin: 10px;
 }
@@ -55,7 +55,7 @@
 .right {
   display: flex;
   float: right;
-  padding-left: 80px;
+  padding-left: 30px;
   margin: 10px;
   align-items: center;
 }

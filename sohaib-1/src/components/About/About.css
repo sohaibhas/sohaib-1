@@ -1,0 +1,6 @@
+.about{
+   background: linear-gradient(to top left, #28b487, #33676b);
+}
+.about right{
+    border:2px solid green;
+}

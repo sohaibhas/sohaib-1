@@ -40,15 +40,16 @@
   float: right;
   padding: 100px;
   padding-bottom: 0px;
-  background-color: rgb(27, 27, 66);
+  background-color: rgba(59, 121, 100);
   border-radius: 500px;
   overflow: hidden;
   animation: slideInFromLeft 1s ease-in;
 }
 
 body {
-  background-image: url("https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_960_720.jpg");
-  background-size: cover;
+  /* background-image: url("https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_960_720.jpg");
+  background-size: cover; */
+  background: linear-gradient(to top left, #28b487, #7dd56f);
 }
 .hero .icon {
   color: white;

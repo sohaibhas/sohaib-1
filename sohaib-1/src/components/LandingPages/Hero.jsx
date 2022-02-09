@@ -1,7 +1,7 @@
 import React from "react";
 import sohaib from "../../assets/2.png";
 import "./Hero.css";
-import { FaInstagram ,FaGithub,FaFacebookF,FaTwitter} from "react-icons/fa";
+import { FaInstagram, FaGithub, FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -10,25 +10,29 @@ const Hero = () => {
         <ul>
           <li>
             <a href="#">
-            <FaFacebookF className="facebook icon" />
+              <FaFacebookF className="facebook icon" />
             </a>
           </li>
         </ul>
         <ul>
           <li>
             <a href="#">
-            <FaInstagram className="instagram icon" />
+              <FaInstagram className="instagram icon" />
             </a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"><FaTwitter className="twitter icon" /></a>
+            <a href="#">
+              <FaTwitter className="twitter icon" />
+            </a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#"><FaGithub className="github icon" /></a>
+            <a href="#">
+              <FaGithub className="github icon" />
+            </a>
           </li>
         </ul>
       </div>
@@ -41,10 +45,10 @@ const Hero = () => {
           <span className="blue">developer</span>
         </h3>
       </div>
-      <div className="hero-right">
+      <div className="hero-right social-icon">
         <img src={sohaib} alt="" />
       </div>
-    </div>
+  </div>
   );
 };
 
