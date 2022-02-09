@@ -27,12 +27,12 @@
   text-decoration: none;
 }
 .hero .hero-left h1 {
-  font-size: 60px;
+  font-size: 80px;
 }
 .hero .hero-left h3 {
   margin-top: -40px;
   padding-left: 80px;
-  font-size: 20px;
+  font-size: 30px;
   align-items: center;
   text-align: center;
 }
@@ -50,6 +50,7 @@ body {
   /* background-image: url("https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_960_720.jpg");
   background-size: cover; */
   background: linear-gradient(to top left, #28b487, #7dd56f);
+  font-family: 'Oswald', sans-serif;
 }
 .hero .icon {
   color: white;
