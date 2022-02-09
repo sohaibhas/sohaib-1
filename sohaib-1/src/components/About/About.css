@@ -14,9 +14,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   margin-top: 7rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
   margin-bottom: 2rem;
-  background: linear-gradient(to top left, #28a4b4, #b1d56f);
+  margin-right: 3rem;
+  background: linear-gradient(to top left, #197370, #3B8868,#205E6A);
+  border-radius: 2rem;
 }
 .blog-1 {
   background-color: #2b2a2a;
