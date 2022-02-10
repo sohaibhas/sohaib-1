@@ -8,24 +8,21 @@ const About = () => {
         <h1 className="about">About Me</h1>
       </div>
       <div className="blog-2">
-        <div style={{display:"flex",justifyContent:"space-around"}} >
-          <h2>Why eating healthy is half of the job </h2>
-          <div className="author">
-            <img src="img/author-1.jpg" alt="" />
-            <p>Sarah H.</p>
-          </div>
+        <div>
+          <h2>Hi! I'M SOHAIB HASSAN</h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-          adipisci illo a fuga? Accusantium ducimus libero, pariatur provident
-          voluptas quia veritatis iste, exercitationem
+          My name is <b>SOHAIB HASSAN</b>, I graduated from <strong>COMSATS</strong> University
+          with a bachelor's degree in <strong>SOFTWARE ENGINEERING</strong>. I invest my free time learning new things,
+          freelancing, and improve my skills with hands on experience. I love
+          programming, developing, building interesting things that make
+          people's lives easier and fun. I love learning new things and expand
+          my knowledge, teaching and helping others, lead a team and work
+          together.
         </p>
-        <a href="#">
-          Read more
-        </a>
+        <a href="#">Read more</a>
       </div>
     </div>
-    
   );
 };
 export default About;

@@ -18,14 +18,14 @@ p {
   margin-bottom: 2rem;
   margin-right: 3rem;
   background: linear-gradient(to top left, #197370, #3B8868,#205E6A);
+  box-shadow: 0 0em 0.5em 0.5em #8aff5c;
   border-radius: 2rem;
 }
 .blog-1 {
   background-color: #2b2a2a;
   padding-right: 5rem;
   padding-bottom: 2rem;
-  text-align: center;
-  align-items: center;
+  
   width: 20rem;
   height: 30rem;
   margin-left: 3rem;
@@ -37,53 +37,16 @@ p {
   align-items: center;
   font-size: 5rem;
 }
-.blog-1 img {
-  opacity: 0.7;
-  margin-left: 0rem;
-  width: 20rem;
-  height: 15rem;
-  margin-left: 3rem;
-  margin-top: -3rem;
-  border-radius: 5px;
-}
-
 .blog-2 {
-  width: 55%;
+  width: 100%;
   background-color: #3b3b3b;
   padding: 2rem;
   background: transparent;  
-  border-left: 2px solid ;
-}
-
-.blog-2 h2 {
-  margin-left: -6rem;
-  margin-right: 8rem;
+  /* border-left: 2px solid ; */
 }
 
 .blog-2 p {
   text-align: left;
+  font-size: 1.8rem;
 }
-
-.blog-2 img {
-  opacity: 0.7;
-  margin-left: 0rem;
-  width: 20rem;
-  height: 15rem;
-  margin-left: 3rem;
-  margin-top: -3rem;
-  border-radius: 5px;
-}
-.author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: -20rem;
-}
-
-.author img {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  margin-top: 1.2rem;
-  margin-right: 1rem;
-}
+ 
