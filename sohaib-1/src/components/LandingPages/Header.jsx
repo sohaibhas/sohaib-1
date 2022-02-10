@@ -14,27 +14,27 @@ const Header = () => {
           <div className="mid">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="/">Portfolio</a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="/">Services</a>
+                <Link to="/services">Services</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
               </li>
             </ul>
           </div>
