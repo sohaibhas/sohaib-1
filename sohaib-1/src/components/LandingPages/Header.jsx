@@ -4,10 +4,6 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    // <div>
-    //   <div className="contact">
-    //     <p className="contact-1">+92340-4892471</p>
-    //   </div>
       <header  className="header bd-grid">
         <div className="nav">
           <div className="logo">
@@ -33,7 +29,7 @@ const Header = () => {
             </ul>
             <ul>
               <li>
-                <a href="/">Contact</a>
+                <a href="/contact">Contact</a>
               </li>
             </ul>
             <ul>
@@ -48,7 +44,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-    // </div>
   );
 };
 

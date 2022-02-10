@@ -1,7 +1,4 @@
-.contact{
-  background-color: rgb(129, 192, 192);
-  height: 10%;
-}
+
 .header {
   display: flex;
   animation: slideInFromTop 1s ease-in;
