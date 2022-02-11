@@ -17,11 +17,11 @@ const Header = () => {
                 <Link to="/">Home</Link>
               </li>
             </ul>
-            <ul>
+            {/* <ul>
               <li>
                 <Link to="/portfolio">Portfolio</Link>
               </li>
-            </ul>
+            </ul> */}
             <ul>
               <li>
                 <Link to="/services">Services</Link>
@@ -29,19 +29,19 @@ const Header = () => {
             </ul>
             <ul>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/about">About</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/contact"><button className="btn">Contact</button></Link>
               </li>
             </ul>
           </div>
-          <div className="right">
+          {/* <div className="right">
             <button className="btn">LOGIN</button>
             <button className="btn">SIGNUP</button>
-          </div>
+          </div> */}
         </div>
       </header>
   );
